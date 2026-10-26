@@ -10,8 +10,14 @@
     "plugins": [
         {
             "name": "sync-plugin",
-            "source": "./",
+            "source": "./plugins/sync-plugin",
             "description": "Standard Claude Code setup for internal Synechron teams.",
+            "version": "1.0.0"
+        },
+        {
+            "name": "new-plugin",
+            "source": "./plugins/new-plugin",
+            "description": "Describe what new-plugin does.",
             "version": "1.0.0"
         }
     ]
